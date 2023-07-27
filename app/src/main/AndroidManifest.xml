@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.WeDrawApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".popular3"
+            android:exported="false" />
+        <activity
+            android:name=".popular2"
+            android:exported="false" />
+        <activity
+            android:name=".popular1"
+            android:exported="false" />
+        <activity
+            android:name=".latest3"
+            android:exported="true" >
+
+
+        </activity>
+
+        <activity
+            android:name=".Latest1"
+            android:exported="false" />
+        <activity
+            android:name=".latest2"
+            android:exported="false" />
+        <activity
+            android:name=".CarSlketchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CartoonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AnimeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+
+        </activity>
+    </application>
+
+</manifest>

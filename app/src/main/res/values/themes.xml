@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.WeDrawApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/bg</item>
+        <item name="colorPrimaryDark">@color/bg </item>
+        <item name="colorSecondary">@color/bg </item>
+    </style>
+
+    <style name="Theme.WeDrawApp" parent="Base.Theme.WeDrawApp" />
+</resources>
